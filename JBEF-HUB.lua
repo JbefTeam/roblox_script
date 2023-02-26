@@ -85,3 +85,7 @@ end)
 
 OthersSection2:NewLabel("Your current name is")
 label:UpdateLabel("Your current name is" + (txt))
+
+OthersSection2:NewButton("MHUB", "Multiple hub at once", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/doors"))()
+end)
